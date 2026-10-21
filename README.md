@@ -8,6 +8,8 @@ Film a real cosplayer on a phone. Cut them out, recover the camera move, put the
 Plan ─► Shoot ─► Prep ─► Matte ─► Track ─► Unreal comp ─► Anime FX ─► Deliver
 ```
 
+**Docs site:** https://astralrc.github.io/cosplay-vp/ · **Start with:** [Prompt library](docs/prompts.md) · [Techniques A–Z](docs/techniques.md) · [Showcase](docs/showcase.md) · [How we built this](docs/how-we-built-this.md)
+
 What's in the box:
 
 | Part | What it is |
@@ -42,7 +44,7 @@ What's in the box:
 Requirements: Python 3.10+, [ffmpeg](https://ffmpeg.org/download.html). Optional: [COLMAP](https://colmap.github.io/install.html), Unreal Engine 5, Blender, OBS.
 
 ```bash
-git clone https://github.com/<your-org>/cosplay-vp.git
+git clone https://github.com/AstralRC/cosplay-vp.git
 cd cosplay-vp
 pip install -e ".[dev]"
 pytest            # 14 tests, including a live MCP stdio session
@@ -117,7 +119,7 @@ Details: [docs/08-rights-consent-disclosure.md](docs/08-rights-consent-disclosur
 
 ## Contributing
 
-Benchmarks with methods, fixes for new Unreal versions, matting comparisons and translations are all welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Anyone can contribute: fork, change, pull request. Benchmarks with methods, fixes for new Unreal versions, matting comparisons, techniques, prompts, showcase entries and translations are all welcome. Issue templates are ready for each. Regular contributors become triage collaborators: see [GOVERNANCE.md](GOVERNANCE.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Licence
 

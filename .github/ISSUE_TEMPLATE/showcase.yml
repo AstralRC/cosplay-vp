@@ -1,0 +1,36 @@
+name: Showcase submission
+description: Share work made with this pipeline or its techniques
+title: "[Showcase] "
+labels: [showcase]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Public link
+      description: YouTube, TikTok, Instagram, X, Bilibili...
+    validations: { required: true }
+  - type: input
+    id: creator
+    attributes:
+      label: Creator credit
+      description: How you want to be credited (a channel name is fine)
+    validations: { required: true }
+  - type: textarea
+    id: techniques
+    attributes:
+      label: Techniques and tools used
+      description: Use names from Techniques A–Z where you can
+    validations: { required: true }
+  - type: textarea
+    id: lesson
+    attributes:
+      label: One thing that went wrong and how you fixed it
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Confirm
+      options:
+        - label: Every performer agreed to the post; anyone under 18 has guardian consent
+          required: true
+        - label: Paid or sponsored work used characters the client owns or licensed, and is labelled as an ad
+          required: true

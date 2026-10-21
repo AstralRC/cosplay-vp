@@ -16,5 +16,11 @@ Each page says what is established practice and what is still a hypothesis. Page
 | [08 Rights, consent and disclosure](08-rights-consent-disclosure.md) | Character IP, minors, visitor footage, ad labels | Guidance, not legal advice |
 | [09 Open questions and benchmarks](09-open-questions-and-benchmarks.md) | What we still need to measure, and how | Open |
 | [10 Tools and licences](10-tools-and-licences.md) | Every tool mentioned, what it does, its licence | Reference |
+| [Techniques A–Z](techniques.md) | Wiki-style index of every technique, with links | Reference |
+| [Prompt library](prompts.md) | Project rulebook, shot brief, and direct → check → fix prompts for each stage | Working |
+| [Showcase](showcase.md) | Work made with the pipeline, and how to submit yours | Open |
+| [How we built this](how-we-built-this.md) | What was tested, bugs found, decisions made | Record |
+
+**Contribute:** every page has an edit button on the docs site. See [CONTRIBUTING](https://github.com/AstralRC/cosplay-vp/blob/main/CONTRIBUTING.md) and [GOVERNANCE](https://github.com/AstralRC/cosplay-vp/blob/main/GOVERNANCE.md) for how to become a collaborator.
 
 Documentation is licensed CC BY 4.0. Code in this repository is MIT.

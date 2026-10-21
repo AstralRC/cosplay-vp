@@ -1,0 +1,23 @@
+name: Bug or engine-version report
+description: A tool, script or skill didn't work
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: input
+    id: part
+    attributes:
+      label: Which part?
+      description: e.g. chroma_key, colmap_to_ue, unreal/import_camera_csv.py, a skill
+    validations: { required: true }
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: OS, Python, ffmpeg, COLMAP, Unreal Engine, MCP client
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what you expected
+      description: Paste the error. Don't attach footage of people who haven't agreed to share it.
+    validations: { required: true }

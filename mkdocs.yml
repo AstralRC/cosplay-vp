@@ -1,0 +1,58 @@
+site_name: cosplay-vp
+site_description: Open knowledge and tools for CG cosplay virtual production
+site_url: https://astralrc.github.io/cosplay-vp/
+repo_url: https://github.com/AstralRC/cosplay-vp
+repo_name: AstralRC/cosplay-vp
+edit_uri: edit/main/docs/
+copyright: Docs CC BY 4.0 · Code MIT · cosplay-vp contributors
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: deep orange
+      toggle: { icon: material/weather-night, name: Dark mode }
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep orange
+      toggle: { icon: material/weather-sunny, name: Light mode }
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+
+nav:
+  - Home: README.md
+  - Pipeline:
+      - Overview: 01-pipeline-overview.md
+      - Shooting the plate: 02-shooting-the-plate.md
+      - Matting and keying: 03-matting-and-keying.md
+      - Camera tracking: 04-camera-tracking.md
+      - Unreal compositing: 05-unreal-compositing.md
+      - Anime FX language: 06-anime-fx-language.md
+  - Live booth: 07-live-booth-architectures.md
+  - Techniques A–Z: techniques.md
+  - Prompt library: prompts.md
+  - Showcase: showcase.md
+  - Rights and consent: 08-rights-consent-disclosure.md
+  - Open questions: 09-open-questions-and-benchmarks.md
+  - Tools and licences: 10-tools-and-licences.md
+  - How we built this: how-we-built-this.md

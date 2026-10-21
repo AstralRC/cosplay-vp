@@ -1,0 +1,24 @@
+name: Technique or prompt
+description: Propose a technique for the wiki or a prompt for the library
+title: "[Technique] "
+labels: [docs]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes:
+      label: What it is and when to use it
+    validations: { required: true }
+  - type: textarea
+    id: how
+    attributes:
+      label: How (steps, or the prompt plus what to check and the fix when it goes wrong)
+    validations: { required: true }
+  - type: input
+    id: example
+    attributes:
+      label: Example link (optional)
